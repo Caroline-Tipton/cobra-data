@@ -1,0 +1,1016 @@
+{
+  "name": "cobrabot",
+  "intents": [
+    {
+      "intent": "code_example",
+      "examples": [
+        {
+          "text": "How do I write a for-loop?"
+        },
+        {
+          "text": "how do i write a dictionary?"
+        },
+        {
+          "text": "How do you construct a for-loop?"
+        },
+        {
+          "text": "how is a for statement written?"
+        },
+        {
+          "text": "how do you declare an empty list?"
+        },
+        {
+          "text": "What's the easiest way to organize basic functions?"
+        },
+        {
+          "text": "How do I use .format"
+        },
+        {
+          "text": "How do I create a for loop?"
+        },
+        {
+          "text": "How do i append a string"
+        },
+        {
+          "text": "How do you create a for loop?"
+        },
+        {
+          "text": "How do you print values from a loop in one line?"
+        },
+        {
+          "text": "How do you call/invoke a routine/function?"
+        },
+        {
+          "text": "How does 'return' function work in python?"
+        },
+        {
+          "text": "How do you use the def function?"
+        },
+        {
+          "text": "How to i make a loop?"
+        },
+        {
+          "text": "How does the .join() operation work?"
+        },
+        {
+          "text": "How do you use def?"
+        },
+        {
+          "text": "How do you create a table?"
+        },
+        {
+          "text": "How do I type a for loop?"
+        },
+        {
+          "text": "I would like to know how to efficiently run def functions in loops"
+        },
+        {
+          "text": "How to change a string to capitol letters?"
+        },
+        {
+          "text": "How do if statements work?"
+        },
+        {
+          "text": "how do I convert numbers given in an input to other characters like: * or #?"
+        },
+        {
+          "text": "How do you create a table of numbers in python?"
+        },
+        {
+          "text": "how do you count how many items are in a list"
+        },
+        {
+          "text": "how does 'end = ' work?"
+        },
+        {
+          "text": "how is a while loop written?"
+        },
+        {
+          "text": "What's the best way to do a for loop?"
+        },
+        {
+          "text": "How can I create different variable names while in a loop?"
+        },
+        {
+          "text": "How do you add an item to a list?"
+        },
+        {
+          "text": "How do nested loops work?"
+        },
+        {
+          "text": "What should the format function look like?"
+        },
+        {
+          "text": "Where to place the return command?"
+        },
+        {
+          "text": "How do you assign a variable?"
+        },
+        {
+          "text": "What does the len function do?"
+        },
+        {
+          "text": "what's the correct way to use format?"
+        },
+        {
+          "text": "how do you fully use a boolean type, then compare the inputs?"
+        },
+        {
+          "text": "How do while loops work?"
+        },
+        {
+          "text": "how do you create a blank line"
+        },
+        {
+          "text": "how can i make a string lowercase?"
+        },
+        {
+          "text": "what is the syntax for input statements?"
+        },
+        {
+          "text": "What do the different brackets mean in python"
+        },
+        {
+          "text": "How do you return the location (position) of aNumber in aList?"
+        },
+        {
+          "text": "How do you call a value from a list using its index number?"
+        },
+        {
+          "text": "What goes in the parentheses when defining a function?"
+        },
+        {
+          "text": "How to append to a list?"
+        },
+        {
+          "text": "How do you format numbers?"
+        },
+        {
+          "text": "How do you access a list that is within another list?"
+        },
+        {
+          "text": "How to use the format command?"
+        },
+        {
+          "text": "How does the remove function work?"
+        },
+        {
+          "text": "how do you solve a value- returning function?"
+        },
+        {
+          "text": "How do you return the value of a location in a list?"
+        },
+        {
+          "text": "How do you use alignment specifiers?"
+        },
+        {
+          "text": "how do you center justify a word"
+        },
+        {
+          "text": "when using an if statement are you required to end it with an else statement?"
+        },
+        {
+          "text": "how do i take a square root "
+        },
+        {
+          "text": "how to you convert an integer to binary?"
+        },
+        {
+          "text": "How can I make a count_passing(grade_list, passing_score) that accepts two parameters: a list of numeric grades, and a passing score - and returns a count of the number?"
+        },
+        {
+          "text": "How do you create a routine?"
+        },
+        {
+          "text": "How does string concatenation work?"
+        },
+        {
+          "text": "How do you stop an infinite loop? "
+        },
+        {
+          "text": "How do you print a table?"
+        },
+        {
+          "text": "How do i convert a string to a number?"
+        },
+        {
+          "text": "How does a while loop work?"
+        },
+        {
+          "text": "How do access a certain item in a list?"
+        },
+        {
+          "text": "How do we make columns and rows while placing them just right?"
+        },
+        {
+          "text": "How do you print /?"
+        },
+        {
+          "text": "How do i format the spaces when creating a chart?"
+        },
+        {
+          "text": "How do you solve and create looped functions?"
+        },
+        {
+          "text": "how to make a custom size table from an input from the user, while in a defined function?"
+        },
+        {
+          "text": "How do you make tables with certain number of rows and columns?"
+        },
+        {
+          "text": "how do you create a function"
+        },
+        {
+          "text": "how to accurately nest while and for loops"
+        },
+        {
+          "text": "In order to run a print function correctly, what must it contain at the beginning and end? "
+        },
+        {
+          "text": "how do i write a while loop"
+        },
+        {
+          "text": "What is the difference between an argument and a parameter?"
+        },
+        {
+          "text": "How can I make a return that is a sum of all the odd numbers between 1 (inclusive) and n (exclusive)?"
+        },
+        {
+          "text": "How do you call a routine?"
+        },
+        {
+          "text": "When is the best time to use an if statement?"
+        },
+        {
+          "text": "What function organizes my list from lowest to greatest?"
+        },
+        {
+          "text": "What methods can remove values from a python array?"
+        },
+        {
+          "text": "How to convert tuples and lists?"
+        },
+        {
+          "text": "How does if/elif work?"
+        },
+        {
+          "text": "How do you limit decimals in a float value?"
+        },
+        {
+          "text": "Which way does Python read exponents?"
+        },
+        {
+          "text": "How do you implement your own function?"
+        },
+        {
+          "text": "How do you create a table with multiple rows and columns?"
+        },
+        {
+          "text": "How does a def function work?"
+        },
+        {
+          "text": "When do you need to use if statements?"
+        },
+        {
+          "text": "How do you solve idx in range problems?"
+        },
+        {
+          "text": "how do you solve idx in range problem?"
+        },
+        {
+          "text": "What will 'ord' return? "
+        },
+        {
+          "text": "what does {:>3} do when formatting"
+        },
+        {
+          "text": "What does the loop do?"
+        },
+        {
+          "text": "How do you make a copy of a list?"
+        },
+        {
+          "text": "In a string sequence, are the indices each letter?"
+        },
+        {
+          "text": "How to use .upper and .lower?"
+        },
+        {
+          "text": "How do 'def' statements work?"
+        },
+        {
+          "text": "How do you give a string a numeric value?"
+        },
+        {
+          "text": "How do we use Boolean statements in functions?"
+        },
+        {
+          "text": "When do you need while loops?"
+        },
+        {
+          "text": "True or False: Comments with hashtags # can only be put at the very top of the program, before any code?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "advanced",
+      "examples": [
+        {
+          "text": "How to return the sum of all the odd numbers between 1 (inclusive) and n (exclusive)"
+        },
+        {
+          "text": "What's the best thing to do when returning a count of the number of vowels in aString?"
+        },
+        {
+          "text": "How do you create a new list based on input that is able to call an item from a different list?"
+        },
+        {
+          "text": "How do you link between different python files?"
+        },
+        {
+          "text": "How do I make a compound interest table?"
+        },
+        {
+          "text": "What an easy simple way when formatting a negative count list that accepts an integer list as a parameter and returns a count of how many numbers in the list are negative?"
+        },
+        {
+          "text": "How many arguments can a print function handle? "
+        },
+        {
+          "text": "What is the easiest way to break programs into sections in python to be assembled later?"
+        },
+        {
+          "text": "How do I add user inputs to a list?"
+        },
+        {
+          "text": "How to format a list as the parameter of a defined function?"
+        },
+        {
+          "text": "Will the following code run correctly or output an error? : float(format(input('What is your GPA?', '.2f')))"
+        },
+        {
+          "text": "Is there a point in creating different variable names in a loop?"
+        },
+        {
+          "text": "How can i copy an object in python?"
+        },
+        {
+          "text": "how to make a function loop and compare things to give a boolean result, and return that result for multiple comparisons?"
+        },
+        {
+          "text": "In python, can  '==' and '!=' function be use with a string when using any type of formal control like while, if, for loop, etc. to execute the given instruction for example:   while i == 'a': print ('none') ?"
+        },
+        {
+          "text": "how do you solve 5//2 without using IDLE?"
+        },
+        {
+          "text": "how can you pick a random item from a tuple or list?"
+        },
+        {
+          "text": "A compiler runs through a source code and makes a seperate file that contains the machine code. It interprets one written language to another language. "
+        },
+        {
+          "text": "How do i use strings to call functions?"
+        },
+        {
+          "text": "You use a value returning function. Such as the function avg that takes the argument of three functions and return. Or to return the value of a list you could by using default arguments."
+        },
+        {
+          "text": "How to add an input statement into an additional input statement?"
+        }
+      ]
+    },
+    {
+      "intent": "conditions",
+      "examples": [
+        {
+          "text": "How to compare two strings"
+        },
+        {
+          "text": "What is the difference between an elif and else statement?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "data_structures",
+      "examples": [
+        {
+          "text": "How to form a tuple?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "data_types",
+      "examples": [
+        {
+          "text": "what is the difference between list and tuples?"
+        },
+        {
+          "text": "What's the difference between a tuple and a string? "
+        },
+        {
+          "text": "What is the difference between a tuple and a list?"
+        },
+        {
+          "text": "What is the difference between list and tuple in python?"
+        },
+        {
+          "text": "What is Mutable and Immutable Data types?"
+        },
+        {
+          "text": "What are the limitations of integer types?"
+        },
+        {
+          "text": "Can String values be altered?"
+        },
+        {
+          "text": "When should you use a tuple over a list?"
+        },
+        {
+          "text": "what are the supported data types in python?"
+        },
+        {
+          "text": "What are the limitations of string types?"
+        },
+        {
+          "text": "What is the difference between a list and a tuple?"
+        },
+        {
+          "text": "Why would you ever use two lists over a dictionary?"
+        },
+        {
+          "text": "Are strings immutable? "
+        },
+        {
+          "text": "what is a float"
+        },
+        {
+          "text": "How do change from string type to integer type?"
+        },
+        {
+          "text": "What are the built-in type does python provide?"
+        }
+      ]
+    },
+    {
+      "intent": "definitions",
+      "examples": [
+        {
+          "text": "What is a for loop?"
+        },
+        {
+          "text": "What makes a loop infinite?"
+        },
+        {
+          "text": "What is a complier?"
+        },
+        {
+          "text": "How many types of strings are there?"
+        },
+        {
+          "text": "What is a compiler?"
+        },
+        {
+          "text": "what is python?"
+        },
+        {
+          "text": "what’s a compiler?"
+        },
+        {
+          "text": "what is the difference between and and or"
+        },
+        {
+          "text": "what is the difference between an array and a list?"
+        },
+        {
+          "text": "What is turtle"
+        },
+        {
+          "text": "What's the difference between a list and a dictionary?"
+        },
+        {
+          "text": "When to use while and for loops?"
+        },
+        {
+          "text": "When do we use while and for loops?"
+        },
+        {
+          "text": "When should I use a for loop?"
+        },
+        {
+          "text": "How many different types of loops are there?"
+        },
+        {
+          "text": "What is a global variable?"
+        },
+        {
+          "text": "are the function names in def (function name)():  considered variables?"
+        },
+        {
+          "text": "What is the greater than or equal to sign in Python?"
+        },
+        {
+          "text": "When's the best time to use an iterative control sequence? "
+        },
+        {
+          "text": "When is it best to use while loop versus for loop?"
+        },
+        {
+          "text": "What does the 'def' function do in python?"
+        },
+        {
+          "text": ">="
+        },
+        {
+          "text": "How do we know what way to sort out our values and statements?"
+        },
+        {
+          "text": "How do you say something is equal to something else?"
+        },
+        {
+          "text": "When should I use a while loop?"
+        },
+        {
+          "text": "What does break do?"
+        },
+        {
+          "text": "can i have a for loop within a for loop?"
+        },
+        {
+          "text": "What is the difference between sequences?"
+        },
+        {
+          "text": "How can you make sure your not making an endless loop?"
+        },
+        {
+          "text": "When is the best time to create functions?"
+        },
+        {
+          "text": "How many arguments can the input function hold? "
+        },
+        {
+          "text": "What does String.strip() do?"
+        },
+        {
+          "text": "What does the ord() function achieve?"
+        },
+        {
+          "text": "When should you use a for loop rather than a while loop?"
+        },
+        {
+          "text": "What is a function?"
+        },
+        {
+          "text": "What is the best way to name a variable?"
+        },
+        {
+          "text": "What is a Boolean operator and what do they mean?"
+        },
+        {
+          "text": "What does {:^3} do when formatting"
+        },
+        {
+          "text": "What is a membership operator?"
+        },
+        {
+          "text": "When exactly do we use len when it comes to lists and what is it?"
+        },
+        {
+          "text": "How many bits are in a byte?"
+        },
+        {
+          "text": "do is it the thing called when you define a function and use the ()?"
+        },
+        {
+          "text": "Are there things that a while loop can do that a for loop cannot do?"
+        },
+        {
+          "text": "How can I change the order of execution in python?"
+        },
+        {
+          "text": "What is a tuple?"
+        },
+        {
+          "text": "what is index used for"
+        },
+        {
+          "text": "what is the difference between a method and a function?"
+        },
+        {
+          "text": "what sort of problems is the reverse function use for?"
+        },
+        {
+          "text": "What is the difference between a nested if statement and an elif statement? "
+        },
+        {
+          "text": "What are the types of if statements?"
+        },
+        {
+          "text": "What is the proper spacing for a python file?"
+        },
+        {
+          "text": "What is the difference between // and % ?"
+        },
+        {
+          "text": "What is a Boolean?"
+        },
+        {
+          "text": "how would you solve 5//2 without IDLE?"
+        },
+        {
+          "text": "Are there things that a for loop can do that a while loop cannot do?"
+        },
+        {
+          "text": "What are conditionals?"
+        },
+        {
+          "text": "which methods or functions don't return anything and which do?"
+        },
+        {
+          "text": "What is bytecode?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "error_handling",
+      "examples": [
+        {
+          "text": "why is my program stuck in a loop?"
+        },
+        {
+          "text": "What if my def function doesn't print?"
+        },
+        {
+          "text": "What should you do first if you have no output?"
+        },
+        {
+          "text": "What if I call my function and it still doesn't work even though I know it doesn't need a return?"
+        },
+        {
+          "text": "What should you do if your program is still running, but it's not giving any  output?"
+        },
+        {
+          "text": "What does syntax error mean?"
+        },
+        {
+          "text": "If my remove function doesn't work what might be wrong with it?"
+        },
+        {
+          "text": "Why doesn't python give more of a hint when you have an error?"
+        },
+        {
+          "text": "Why do some calls need print statements and others don't"
+        },
+        {
+          "text": "How would you solve a non-value returning function problem?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "explain_code",
+      "examples": [
+        {
+          "text": "How to format various types correctly?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "libraries",
+      "examples": [
+        {
+          "text": "What are the different math functions in python"
+        },
+        {
+          "text": "how do you save an image with openCV?"
+        },
+        {
+          "text": "What are the most useful python modules?"
+        },
+        {
+          "text": "how do I convert an image greyscale using openCV?"
+        },
+        {
+          "text": "how do you draw a shape using  turtle?"
+        },
+        {
+          "text": "What other things can you import other than math?"
+        },
+        {
+          "text": "Ignore the 3 questions from before, I misunderstood what we were supposed to do"
+        },
+        {
+          "text": "How do I iterate through items using a for loop and then save them to a variable to be used with a different for loop?"
+        },
+        {
+          "text": "How do you know which variables go inside the loop?"
+        },
+        {
+          "text": "Can the examples in class be more complex like labs so that we can understand labs more?"
+        },
+        {
+          "text": "A for loop is created by using:for variable in sequence. for i in range(x,y,z). x is the first number in the range. Y is the second, and Z is the iteration. So if X is 1, Y is 10, and Z is 1. The output of the loop would be 123456789 "
+        },
+        {
+          "text": "How can I learn the base meaning of things?"
+        },
+        {
+          "text": "will python make my parents love me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "python_functionality",
+      "examples": [
+        {
+          "text": "How is memory managed in Python?"
+        },
+        {
+          "text": "what are the benefits of using python?"
+        }
+      ]
+    },
+    {
+      "intent": "python_overview",
+      "examples": [
+        {
+          "text": "Why does python care about tabs and not spacing?"
+        },
+        {
+          "text": "What is the difference between pycharm and idle?"
+        },
+        {
+          "text": "What all can I do with Python?"
+        },
+        {
+          "text": "Where can you find all the functions already in python?"
+        },
+        {
+          "text": "How long does it take to master Python?"
+        },
+        {
+          "text": "What is PEP8?"
+        },
+        {
+          "text": "How much space does python take up on my computer?"
+        },
+        {
+          "text": "How can I better understand Python and how coding works?"
+        },
+        {
+          "text": "Benefits of python vs other languages?"
+        },
+        {
+          "text": "Can you teach yourself python?"
+        },
+        {
+          "text": "What are the best resources to use to learn?"
+        },
+        {
+          "text": "What are the most useful built-in python functions?"
+        },
+        {
+          "text": "What is the difference between python and other programming languages?"
+        },
+        {
+          "text": "Is there anything you can't program with Python?"
+        },
+        {
+          "text": "What are the most commonly used built-in python functions?"
+        },
+        {
+          "text": "Can I use Python for web development and phone applications/games?"
+        },
+        {
+          "text": "What is the most helpful function to use in python? "
+        }
+      ]
+    },
+    {
+      "intent": "questions_for_cobra",
+      "examples": [
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "what is your designation"
+        },
+        {
+          "text": "what are you called"
+        },
+        {
+          "text": "do you know who you are"
+        },
+        {
+          "text": "who are you again"
+        },
+        {
+          "text": "I do not know who this is"
+        },
+        {
+          "text": "what's your name"
+        },
+        {
+          "text": "you did not introduce yourself"
+        },
+        {
+          "text": "your name please"
+        },
+        {
+          "text": "who is talking"
+        },
+        {
+          "text": "you did not tell me your name"
+        },
+        {
+          "text": "who am I talking to"
+        },
+        {
+          "text": "what is your name"
+        }
+      ],
+      "description": ""
+    },
+  ],
+  "entities": [
+    {
+      "entity": "for_loop",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "forloop",
+          "synonyms": [
+            "for loop",
+            "for",
+            "loop for",
+            "i in for"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "unclassified",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "unclassified_objects",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "format",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "format_syn",
+          "synonyms": [
+            "format",
+            ".format"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "operators",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "operators_sym",
+          "synonyms": [
+            "//",
+            "{:^3}",
+            "{:>3}",
+            "%"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "alignment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "allign",
+          "synonyms": [
+            "allign",
+            "center",
+            "columns",
+            "allignment",
+            "placing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "append",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "appending",
+          "synonyms": [
+            "append",
+            "add to",
+            "put on end",
+            "put on list",
+            "appending"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "arrays",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "array",
+          "synonyms": [
+            "array",
+            "arrays"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "benefits",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "benefit",
+          "synonyms": [
+            "useful",
+            "best uses",
+            "great for",
+            "python great for",
+            "capabilities"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "built_in",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "builtin",
+          "synonyms": [
+            "built in libraries",
+            "libraries",
+            "built in functions",
+            "functions offered",
+            "offered functions"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bit_byte",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bitbyte",
+          "synonyms": [
+            "bit byte",
+            "bit or byte",
+            "bits",
+            "bytes",
+            "bits and bytes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "whitespace",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "whitespaces",
+          "synonyms": [
+            "white space",
+            "whitespace",
+            "blank",
+            "tabs",
+            "spacing",
+            "tabs and spacing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ]

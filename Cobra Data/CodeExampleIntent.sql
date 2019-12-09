@@ -1,0 +1,115 @@
+/* Caroline Tipton, Vanessa Mendoza, Erin Medon */
+
+CREATE TABLE COBRA_INTENTS_CODE_EXAMPLE (
+  CODE_EXAMPLE_INT_ID     INT(4) PRIMARY KEY,
+  CODE_EXAMPLE_INT_NAME   VARCHAR(20),
+  CODE_EXAMPLE_INT_EXAMPLE   VARCHAR(255) NOT NULL,
+  BOT_ID  INT,
+  FOREIGN KEY (BOT_ID) REFERENCES BOT(BOT_ID)
+);
+
+start transaction;
+/*CODE EXAMPLE INTENT*/
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1001,'Code_Example', 'How does the .join() operation work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1002,'Code_Example', 'How do you use def?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1003,'Code_Example', 'How do you create a table?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1004,'Code_Example', 'How do I type a for loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1005,'Code_Example', 'I would like to know how to efficiently run def functions in loops',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1006,'Code_Example', 'How to change a string to capitol letters?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1007,'Code_Example', 'How do if statements work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1008,'Code_Example', 'how do I convert numbers given in an input to other characters like: * or #?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1009,'Code_Example', 'How do you create a table of numbers in python?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1010,'Code_Example', 'how do you count how many items are in a list',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1011,'Code_Example', 'how does end =  work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1012,'Code_Example', 'how is a while loop written?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1013,'Code_Example', 'Whats the best way to do a for loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1014,'Code_Example', 'How can I create different variable names while in a loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1015,'Code_Example', 'How do you add an item to a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1016,'Code_Example', 'How do nested loops work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1017,'Code_Example', 'What should the format function look like?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1018,'Code_Example', 'Where to place the return command?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1019,'Code_Example', 'How do you assign a variable?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1020,'Code_Example', 'What does the len function do?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1021,'Code_Example', 'whats the correct way to use format?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1022,'Code_Example', 'how do you fully use a boolean type, then compare the inputs?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1023,'Code_Example', 'How do while loops work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1024,'Code_Example', 'how do you create a blank line',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1025,'Code_Example', 'how can i make a string lowercase?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1026,'Code_Example', 'what is the syntax for input statements?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1027,'Code_Example', 'What do the different brackets mean in python',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1028,'Code_Example', 'How do you return the location (position) of aNumber in aList?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1029,'Code_Example', 'How do you call a value from a list using its index number?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1030,'Code_Example', 'What goes in the parentheses when defining a function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1031,'Code_Example', 'How to append to a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1032,'Code_Example', 'How do you format numbers?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1033,'Code_Example', 'How do you access a list that is within another list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1034,'Code_Example', 'How to use the format command?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1035,'Code_Example', 'How does the remove function work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1036,'Code_Example', 'how do you solve a value- returning function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1037,'Code_Example', 'How do you return the value of a location in a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1038,'Code_Example', 'How do you use alignment specifiers?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1039,'Code_Example', 'how do you center justify a word',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1040,'Code_Example', 'when using an if statement are you required to end it with an else statement?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1041,'Code_Example', 'how do i take a square root ',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1042,'Code_Example', 'how to you convert an integer to binary?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1043,'Code_Example', 'How do you create a routine?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1044,'Code_Example', 'How does string concatenation work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1045,'Code_Example', 'How do you use the def function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1046,'Code_Example', 'How do i convert a string to a number?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1047,'Code_Example', 'How does a while loop work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1048,'Code_Example', 'How do access a certain item in a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1049,'Code_Example', 'How do we make columns and rows while placing them just right?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1050,'Code_Example', 'How do you print /?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1051,'Code_Example', 'How do i format the spaces when creating a chart?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1052,'Code_Example', 'How do you solve and create looped functions?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1053,'Code_Example', 'how to make a custom size table from an input from the user, while in a defined function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1054,'Code_Example', 'How do you make tables with certain number of rows and columns?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1055,'Code_Example', 'how do you create a function',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1056,'Code_Example', 'how to accurately nest while and for loops',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1057,'Code_Example', 'In order to run a print function correctly, what must it contain at the beginning and end? ',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1058,'Code_Example', 'how do i write a while loop',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1059,'Code_Example', 'What is the difference between an argument and a parameter?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1060,'Code_Example', 'How can I make a return that is a sum of all the odd numbers between 1 (inclusive) and n (exclusive)?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1061,'Code_Example', 'How do you call a routine?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1062,'Code_Example', 'When is the best time to use an if statement?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1063,'Code_Example', 'What function organizes my list from lowest to greatest?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1064,'Code_Example', 'What methods can remove values from a python array?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1065,'Code_Example', 'How to convert tuples and lists?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1066,'Code_Example', 'How does if/elif work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1067,'Code_Example', 'How do you limit decimals in a float value?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1068,'Code_Example', 'Which way does Python read exponents?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1069,'Code_Example', 'How do you implement your own function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1070,'Code_Example', 'How do you create a table with multiple rows and columns?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1071,'Code_Example', 'How does a def function work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1072,'Code_Example', 'When do you need to use if statements?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1073,'Code_Example', 'How do you solve idx in range problems?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1074,'Code_Example', 'how do you solve idx in range problem?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1075,'Code_Example', 'What will ord return? ',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1076,'Code_Example', 'What does the loop do?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1077,'Code_Example', 'How do you make a copy of a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1078,'Code_Example', 'In a string sequence, are the indices each letter?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1079,'Code_Example', 'How to use .upper and .lower?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1080,'Code_Example', 'How do def statements work?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1081,'Code_Example', 'How do you give a string a numeric value?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1082,'Code_Example', 'How do we use Boolean statements in functions?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1083,'Code_Example', 'When do you need while loops?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1084,'Code_Example', 'True or False: Comments with hashtags # can only be put at the very top of the program, before any code?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1085,'Code_Example', 'How do you convert an integer to a binary number?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1086,'Code_Example', 'What is the length of a list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1087,'Code_Example', 'do is it the thing called when you define a function and use the ()?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1088,'Code_Example', 'How does return function work in python?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1089,'Code_Example', 'How do you call/invoke a routine/function?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1090,'Code_Example', 'How do you print values from a loop in one line?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1091,'Code_Example', 'How do you create a for loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1092,'Code_Example', 'How do i append a string',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1093,'Code_Example', 'How do I create a for loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1094,'Code_Example', 'How do I use .format',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1095,'Code_Example', 'Whats the easiest way to organize basic functions?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1096,'Code_Example', 'how do you declare an empty list?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1097,'Code_Example', 'how is a for statement written?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1098,'Code_Example', 'How do you construct a for-loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1099,'Code_Example', 'how do i write a dictionary?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1100,'Code_Example', 'How do I write a for-loop?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1101,'Code_Example', 'How do you print a table?',8675309);
+INSERT INTO COBRA_INTENTS_CODE_EXAMPLE VALUES (1102,'Code_Example', 'How to i make a loop?',8675309);
+commit;
